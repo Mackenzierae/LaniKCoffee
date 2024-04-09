@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		036A771E17854EDCD5CE11B1 /* Pods_LaniKingstonCoffeeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF88DCD5C99FC0C41CC37F8 /* Pods_LaniKingstonCoffeeTests.framework */; };
+		36582D22E287662507389B76 /* Pods_LaniKingstonCoffee_LaniKingstonCoffeeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D66E00A7D4E35BD479BAC0E /* Pods_LaniKingstonCoffee_LaniKingstonCoffeeUITests.framework */; };
+		43C14407F9B7EE4DDE6AA616 /* Pods_LaniKingstonCoffee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF5504C2AA03860CF139279 /* Pods_LaniKingstonCoffee.framework */; };
+		59075101296FEDAA008F587D /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59075100296FEDAA008F587D /* ResultsViewController.swift */; };
+		5907510329709AC0008F587D /* PlacesFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5907510229709AC0008F587D /* PlacesFetcher.swift */; };
+		590751052970A2CF008F587D /* PlaceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590751042970A2CF008F587D /* PlaceError.swift */; };
+		590751072974CC09008F587D /* CafeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590751062974CC09008F587D /* CafeDetailViewController.swift */; };
+		5907510F297899A5008F587D /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5907510E297899A5008F587D /* LocationService.swift */; };
+		590CE5542968E2AF0061870B /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590CE5532968E2AF0061870B /* CustomTabBarController.swift */; };
+		590CE5562968E3910061870B /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590CE5552968E3910061870B /* AboutViewController.swift */; };
+		590CE5582968E3BD0061870B /* FeaturedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590CE5572968E3BD0061870B /* FeaturedViewController.swift */; };
+		590CE55A2968F8520061870B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590CE5592968F8520061870B /* MapViewController.swift */; };
+		590CE55C2968F8600061870B /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590CE55B2968F8600061870B /* ListViewController.swift */; };
+		590CE55F2969182A0061870B /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590CE55E2969182A0061870B /* ListTableViewCell.swift */; };
+		597100D329655F8B008A0E5D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597100D229655F8B008A0E5D /* HomeViewController.swift */; };
+		597100D629656484008A0E5D /* Cafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597100D529656484008A0E5D /* Cafe.swift */; };
+		597100D92965FA26008A0E5D /* CafeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597100D82965FA25008A0E5D /* CafeController.swift */; };
 		59C309872964F17F007886FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C309862964F17F007886FD /* AppDelegate.swift */; };
 		59C309892964F17F007886FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C309882964F17F007886FD /* SceneDelegate.swift */; };
-		59C3098B2964F17F007886FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C3098A2964F17F007886FD /* ViewController.swift */; };
 		59C3098E2964F17F007886FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59C3098C2964F17F007886FD /* Main.storyboard */; };
 		59C309902964F180007886FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59C3098F2964F180007886FD /* Assets.xcassets */; };
 		59C309932964F180007886FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59C309912964F180007886FD /* LaunchScreen.storyboard */; };
 		59C3099E2964F180007886FD /* LaniKingstonCoffeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C3099D2964F180007886FD /* LaniKingstonCoffeeTests.swift */; };
 		59C309A82964F181007886FD /* LaniKingstonCoffeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C309A72964F181007886FD /* LaniKingstonCoffeeUITests.swift */; };
 		59C309AA2964F181007886FD /* LaniKingstonCoffeeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C309A92964F181007886FD /* LaniKingstonCoffeeUITestsLaunchTests.swift */; };
+		59C309BC2964F1FF007886FD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59C309BB2964F1FF007886FD /* GoogleService-Info.plist */; };
+		59C770BF296CD26000C2608B /* CafeErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C770BE296CD26000C2608B /* CafeErrors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +54,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E14AB504B38A34518358D06 /* Pods-LaniKingstonCoffee-LaniKingstonCoffeeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaniKingstonCoffee-LaniKingstonCoffeeUITests.debug.xcconfig"; path = "Target Support Files/Pods-LaniKingstonCoffee-LaniKingstonCoffeeUITests/Pods-LaniKingstonCoffee-LaniKingstonCoffeeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		51DC94D5334BF4862BF67F20 /* Pods-LaniKingstonCoffee-LaniKingstonCoffeeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaniKingstonCoffee-LaniKingstonCoffeeUITests.release.xcconfig"; path = "Target Support Files/Pods-LaniKingstonCoffee-LaniKingstonCoffeeUITests/Pods-LaniKingstonCoffee-LaniKingstonCoffeeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		59075100296FEDAA008F587D /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		5907510229709AC0008F587D /* PlacesFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesFetcher.swift; sourceTree = "<group>"; };
+		590751042970A2CF008F587D /* PlaceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceError.swift; sourceTree = "<group>"; };
+		590751062974CC09008F587D /* CafeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeDetailViewController.swift; sourceTree = "<group>"; };
+		5907510E297899A5008F587D /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		590CE5532968E2AF0061870B /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		590CE5552968E3910061870B /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		590CE5572968E3BD0061870B /* FeaturedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedViewController.swift; sourceTree = "<group>"; };
+		590CE5592968F8520061870B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		590CE55B2968F8600061870B /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		590CE55E2969182A0061870B /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		597100D229655F8B008A0E5D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		597100D529656484008A0E5D /* Cafe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cafe.swift; sourceTree = "<group>"; };
+		597100D82965FA25008A0E5D /* CafeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeController.swift; sourceTree = "<group>"; };
 		59C309832964F17F007886FD /* LaniKingstonCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaniKingstonCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59C309862964F17F007886FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59C309882964F17F007886FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		59C3098A2964F17F007886FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		59C3098D2964F17F007886FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		59C3098F2964F180007886FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59C309922964F180007886FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +82,15 @@
 		59C309A32964F180007886FD /* LaniKingstonCoffeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaniKingstonCoffeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59C309A72964F181007886FD /* LaniKingstonCoffeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaniKingstonCoffeeUITests.swift; sourceTree = "<group>"; };
 		59C309A92964F181007886FD /* LaniKingstonCoffeeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaniKingstonCoffeeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		59C309BB2964F1FF007886FD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		59C770BE296CD26000C2608B /* CafeErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeErrors.swift; sourceTree = "<group>"; };
+		60C1640C15ACDA425326233E /* Pods-LaniKingstonCoffeeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaniKingstonCoffeeTests.debug.xcconfig"; path = "Target Support Files/Pods-LaniKingstonCoffeeTests/Pods-LaniKingstonCoffeeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D66E00A7D4E35BD479BAC0E /* Pods_LaniKingstonCoffee_LaniKingstonCoffeeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaniKingstonCoffee_LaniKingstonCoffeeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BF88DCD5C99FC0C41CC37F8 /* Pods_LaniKingstonCoffeeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaniKingstonCoffeeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80C8CCE529D724FC096B9D4E /* Pods-LaniKingstonCoffee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaniKingstonCoffee.release.xcconfig"; path = "Target Support Files/Pods-LaniKingstonCoffee/Pods-LaniKingstonCoffee.release.xcconfig"; sourceTree = "<group>"; };
+		C0999CDF339970A308FFC7F8 /* Pods-LaniKingstonCoffee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaniKingstonCoffee.debug.xcconfig"; path = "Target Support Files/Pods-LaniKingstonCoffee/Pods-LaniKingstonCoffee.debug.xcconfig"; sourceTree = "<group>"; };
+		DFF5504C2AA03860CF139279 /* Pods_LaniKingstonCoffee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaniKingstonCoffee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31DD6979BACC36901F38A04 /* Pods-LaniKingstonCoffeeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaniKingstonCoffeeTests.release.xcconfig"; path = "Target Support Files/Pods-LaniKingstonCoffeeTests/Pods-LaniKingstonCoffeeTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43C14407F9B7EE4DDE6AA616 /* Pods_LaniKingstonCoffee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				036A771E17854EDCD5CE11B1 /* Pods_LaniKingstonCoffeeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +114,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36582D22E287662507389B76 /* Pods_LaniKingstonCoffee_LaniKingstonCoffeeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		590CE5522968E2950061870B /* CustomViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				590CE5532968E2AF0061870B /* CustomTabBarController.swift */,
+				590CE5592968F8520061870B /* MapViewController.swift */,
+				590CE55B2968F8600061870B /* ListViewController.swift */,
+				59075100296FEDAA008F587D /* ResultsViewController.swift */,
+				590751062974CC09008F587D /* CafeDetailViewController.swift */,
+			);
+			path = CustomViewControllers;
+			sourceTree = "<group>";
+		};
+		590CE55D296917F50061870B /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				590CE55E2969182A0061870B /* ListTableViewCell.swift */,
+			);
+			name = CustomCells;
+			sourceTree = "<group>";
+		};
+		597100D429656466008A0E5D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				597100D529656484008A0E5D /* Cafe.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		597100D72965FA09008A0E5D /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				597100D82965FA25008A0E5D /* CafeController.swift */,
+				5907510229709AC0008F587D /* PlacesFetcher.swift */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
 		59C3097A2964F17F007886FD = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +165,8 @@
 				59C3099C2964F180007886FD /* LaniKingstonCoffeeTests */,
 				59C309A62964F181007886FD /* LaniKingstonCoffeeUITests */,
 				59C309842964F17F007886FD /* Products */,
+				6B1A3DACAECA792CB7EE90A5 /* Pods */,
+				5B9C2DD774E71684AC393212 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +183,14 @@
 		59C309852964F17F007886FD /* LaniKingstonCoffee */ = {
 			isa = PBXGroup;
 			children = (
-				59C309862964F17F007886FD /* AppDelegate.swift */,
-				59C309882964F17F007886FD /* SceneDelegate.swift */,
-				59C3098A2964F17F007886FD /* ViewController.swift */,
-				59C3098C2964F17F007886FD /* Main.storyboard */,
-				59C3098F2964F180007886FD /* Assets.xcassets */,
-				59C309912964F180007886FD /* LaunchScreen.storyboard */,
-				59C309942964F180007886FD /* Info.plist */,
+				59C309B92964F1B1007886FD /* Storyboards */,
+				59C309BA2964F1CC007886FD /* ViewControllers */,
+				590CE5522968E2950061870B /* CustomViewControllers */,
+				590CE55D296917F50061870B /* CustomCells */,
+				597100D72965FA09008A0E5D /* ModelControllers */,
+				597100D429656466008A0E5D /* Models */,
+				59C770BD296CD24500C2608B /* Helpers */,
+				59C309B62964F195007886FD /* Resources */,
 			);
 			path = LaniKingstonCoffee;
 			sourceTree = "<group>";
@@ -127,6 +212,70 @@
 			path = LaniKingstonCoffeeUITests;
 			sourceTree = "<group>";
 		};
+		59C309B62964F195007886FD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				59C309862964F17F007886FD /* AppDelegate.swift */,
+				59C309882964F17F007886FD /* SceneDelegate.swift */,
+				59C3098F2964F180007886FD /* Assets.xcassets */,
+				59C309942964F180007886FD /* Info.plist */,
+				59C309BB2964F1FF007886FD /* GoogleService-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		59C309B92964F1B1007886FD /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				59C3098C2964F17F007886FD /* Main.storyboard */,
+				59C309912964F180007886FD /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		59C309BA2964F1CC007886FD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				597100D229655F8B008A0E5D /* HomeViewController.swift */,
+				590CE5552968E3910061870B /* AboutViewController.swift */,
+				590CE5572968E3BD0061870B /* FeaturedViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		59C770BD296CD24500C2608B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				59C770BE296CD26000C2608B /* CafeErrors.swift */,
+				590751042970A2CF008F587D /* PlaceError.swift */,
+				5907510E297899A5008F587D /* LocationService.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5B9C2DD774E71684AC393212 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFF5504C2AA03860CF139279 /* Pods_LaniKingstonCoffee.framework */,
+				6D66E00A7D4E35BD479BAC0E /* Pods_LaniKingstonCoffee_LaniKingstonCoffeeUITests.framework */,
+				7BF88DCD5C99FC0C41CC37F8 /* Pods_LaniKingstonCoffeeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B1A3DACAECA792CB7EE90A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0999CDF339970A308FFC7F8 /* Pods-LaniKingstonCoffee.debug.xcconfig */,
+				80C8CCE529D724FC096B9D4E /* Pods-LaniKingstonCoffee.release.xcconfig */,
+				3E14AB504B38A34518358D06 /* Pods-LaniKingstonCoffee-LaniKingstonCoffeeUITests.debug.xcconfig */,
+				51DC94D5334BF4862BF67F20 /* Pods-LaniKingstonCoffee-LaniKingstonCoffeeUITests.release.xcconfig */,
+				60C1640C15ACDA425326233E /* Pods-LaniKingstonCoffeeTests.debug.xcconfig */,
+				F31DD6979BACC36901F38A04 /* Pods-LaniKingstonCoffeeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +283,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59C309AD2964F181007886FD /* Build configuration list for PBXNativeTarget "LaniKingstonCoffee" */;
 			buildPhases = (
+				391EC4C8741B2D0909F54D66 /* [CP] Check Pods Manifest.lock */,
 				59C3097F2964F17F007886FD /* Sources */,
 				59C309802964F17F007886FD /* Frameworks */,
 				59C309812964F17F007886FD /* Resources */,
+				88C820A7D184F1A2C9D6D384 /* [CP] Embed Pods Frameworks */,
+				EF92A8CC52CF3F03083E00D5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,6 +303,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59C309B02964F181007886FD /* Build configuration list for PBXNativeTarget "LaniKingstonCoffeeTests" */;
 			buildPhases = (
+				AFAF02C910A7E3EEE48D141F /* [CP] Check Pods Manifest.lock */,
 				59C309952964F180007886FD /* Sources */,
 				59C309962964F180007886FD /* Frameworks */,
 				59C309972964F180007886FD /* Resources */,
@@ -169,9 +322,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59C309B32964F181007886FD /* Build configuration list for PBXNativeTarget "LaniKingstonCoffeeUITests" */;
 			buildPhases = (
+				3D394EFC7B141918A40FF20B /* [CP] Check Pods Manifest.lock */,
 				59C3099F2964F180007886FD /* Sources */,
 				59C309A02964F180007886FD /* Frameworks */,
 				59C309A12964F180007886FD /* Resources */,
+				F04152C7338FC7E971F1D1E5 /* [CP] Embed Pods Frameworks */,
+				1B8FD8184625AC05C02526ED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				59C309932964F180007886FD /* LaunchScreen.storyboard in Resources */,
+				59C309BC2964F1FF007886FD /* GoogleService-Info.plist in Resources */,
 				59C309902964F180007886FD /* Assets.xcassets in Resources */,
 				59C3098E2964F17F007886FD /* Main.storyboard in Resources */,
 			);
@@ -253,14 +410,165 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B8FD8184625AC05C02526ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LaniKingstonCoffee-LaniKingstonCoffeeUITests/Pods-LaniKingstonCoffee-LaniKingstonCoffeeUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LaniKingstonCoffee-LaniKingstonCoffeeUITests/Pods-LaniKingstonCoffee-LaniKingstonCoffeeUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LaniKingstonCoffee-LaniKingstonCoffeeUITests/Pods-LaniKingstonCoffee-LaniKingstonCoffeeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		391EC4C8741B2D0909F54D66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LaniKingstonCoffee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D394EFC7B141918A40FF20B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LaniKingstonCoffee-LaniKingstonCoffeeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88C820A7D184F1A2C9D6D384 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LaniKingstonCoffee/Pods-LaniKingstonCoffee-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LaniKingstonCoffee/Pods-LaniKingstonCoffee-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LaniKingstonCoffee/Pods-LaniKingstonCoffee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFAF02C910A7E3EEE48D141F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LaniKingstonCoffeeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF92A8CC52CF3F03083E00D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LaniKingstonCoffee/Pods-LaniKingstonCoffee-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LaniKingstonCoffee/Pods-LaniKingstonCoffee-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LaniKingstonCoffee/Pods-LaniKingstonCoffee-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F04152C7338FC7E971F1D1E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LaniKingstonCoffee-LaniKingstonCoffeeUITests/Pods-LaniKingstonCoffee-LaniKingstonCoffeeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LaniKingstonCoffee-LaniKingstonCoffeeUITests/Pods-LaniKingstonCoffee-LaniKingstonCoffeeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LaniKingstonCoffee-LaniKingstonCoffeeUITests/Pods-LaniKingstonCoffee-LaniKingstonCoffeeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		59C3097F2964F17F007886FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59C3098B2964F17F007886FD /* ViewController.swift in Sources */,
+				597100D629656484008A0E5D /* Cafe.swift in Sources */,
+				590CE5542968E2AF0061870B /* CustomTabBarController.swift in Sources */,
+				590751052970A2CF008F587D /* PlaceError.swift in Sources */,
+				590751072974CC09008F587D /* CafeDetailViewController.swift in Sources */,
 				59C309872964F17F007886FD /* AppDelegate.swift in Sources */,
+				590CE55A2968F8520061870B /* MapViewController.swift in Sources */,
 				59C309892964F17F007886FD /* SceneDelegate.swift in Sources */,
+				590CE55F2969182A0061870B /* ListTableViewCell.swift in Sources */,
+				590CE55C2968F8600061870B /* ListViewController.swift in Sources */,
+				5907510329709AC0008F587D /* PlacesFetcher.swift in Sources */,
+				590CE5582968E3BD0061870B /* FeaturedViewController.swift in Sources */,
+				5907510F297899A5008F587D /* LocationService.swift in Sources */,
+				59075101296FEDAA008F587D /* ResultsViewController.swift in Sources */,
+				597100D92965FA26008A0E5D /* CafeController.swift in Sources */,
+				597100D329655F8B008A0E5D /* HomeViewController.swift in Sources */,
+				590CE5562968E3910061870B /* AboutViewController.swift in Sources */,
+				59C770BF296CD26000C2608B /* CafeErrors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +740,7 @@
 		};
 		59C309AE2964F181007886FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0999CDF339970A308FFC7F8 /* Pods-LaniKingstonCoffee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -439,7 +748,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8H997XH52S;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LaniKingstonCoffee/Info.plist;
+				INFOPLIST_FILE = LaniKingstonCoffee/Resources/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow location access to use our app.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -460,6 +770,7 @@
 		};
 		59C309AF2964F181007886FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80C8CCE529D724FC096B9D4E /* Pods-LaniKingstonCoffee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -467,7 +778,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8H997XH52S;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LaniKingstonCoffee/Info.plist;
+				INFOPLIST_FILE = LaniKingstonCoffee/Resources/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow location access to use our app.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -488,6 +800,7 @@
 		};
 		59C309B12964F181007886FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60C1640C15ACDA425326233E /* Pods-LaniKingstonCoffeeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +821,7 @@
 		};
 		59C309B22964F181007886FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F31DD6979BACC36901F38A04 /* Pods-LaniKingstonCoffeeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +842,7 @@
 		};
 		59C309B42964F181007886FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E14AB504B38A34518358D06 /* Pods-LaniKingstonCoffee-LaniKingstonCoffeeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +861,7 @@
 		};
 		59C309B52964F181007886FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51DC94D5334BF4862BF67F20 /* Pods-LaniKingstonCoffee-LaniKingstonCoffeeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

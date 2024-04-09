@@ -7,7 +7,25 @@
 		<key>LaniKingstonCoffee.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>20</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>59C309822964F17F007886FD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>59C309982964F180007886FD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>59C309A22964F180007886FD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

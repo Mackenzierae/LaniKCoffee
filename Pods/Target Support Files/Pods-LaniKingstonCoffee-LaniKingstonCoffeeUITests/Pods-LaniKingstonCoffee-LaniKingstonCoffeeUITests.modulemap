@@ -1,0 +1,6 @@
+framework module Pods_LaniKingstonCoffee_LaniKingstonCoffeeUITests {
+  umbrella header "Pods-LaniKingstonCoffee-LaniKingstonCoffeeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
